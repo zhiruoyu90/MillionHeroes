@@ -16,14 +16,14 @@ bodys = {}
 url = host + path + '?' + querys
 '''
 """ （百度ocr）你的 APPID AK SK """
-APP_ID = '10673785'
-API_KEY = 'FqRvrpPwhSNXt2FhT6d3dXfc'
-SECRET_KEY = 'UIu2qOPHXENScjr1yzAyXQgNkLQzkcdc'
+APP_ID = '10675641'
+API_KEY = 'YSc6nlyChnqHP7NwDFL0zESG'
+SECRET_KEY = '2hvg3eI9H6yZL3TI2h01KfEAtYFXmh89'
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
 
 
-im = Image.open(r"./screenshot.png")   
+im = Image.open(r"./screenshot_2.png")
 
 img_size = im.size
 w = im.size[0]
